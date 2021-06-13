@@ -1,6 +1,6 @@
 {
   "name": "amit-sample-repo",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "sample repo for devops purposes",
   "main": "index.js",
   "scripts": {

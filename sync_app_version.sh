@@ -39,8 +39,11 @@ fs.writeFile(fileName, JSON.stringify(data, null, 2), function writeJSON(err) {
   console.log('writing to ' + fileName);
 });
 EOF
+#update the version in package.json using the npm version command
 npm version $version_update_type
 if [ $? -ne 0 ]; then
     echo "failed to update version on package.json"
     exit 1
 fi
+echo "finished succesfully"
+exit 0
