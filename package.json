@@ -1,0 +1,19 @@
+{
+  "name": "amit-sample-repo",
+  "version": "1.0.1",
+  "description": "sample repo for devops purposes",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/amitca71/sample-repo.git"
+  },
+  "author": "amit cahanovich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amitca71/sample-repo/issues"
+  },
+  "homepage": "https://github.com/amitca71/sample-repo#readme"
+}
